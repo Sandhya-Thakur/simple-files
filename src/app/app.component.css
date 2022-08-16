@@ -1,0 +1,127 @@
+.mycal{
+    border: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgb(172, 172, 199);
+    
+
+}
+.all-btns{
+    display: flex;
+
+}
+.all-btns-nmbr{
+    display: flex;
+    width: 210px;
+    flex-wrap: wrap;
+
+}
+.all-btns-sign{
+    display: flex;
+    flex-direction: column;
+
+}
+.butn-extra{
+    display: flex;
+
+}
+.butn-extra button{
+    background-color: rgb(82, 70, 70);
+    color: white;
+
+}
+butn-extra button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 5px rgb(255,255, 55);
+
+}
+.btns-clear-equals{
+    display: flex;
+    justify-content: space-evenly;
+    width:100%;
+}
+.btns-clear-equals button{
+    width: 120px;
+    font-size: 30px;
+    padding: 5px;
+    margin: 10px 5px;
+    border-radius: 10px;
+    border: none;
+
+}
+.all-btns-nmbr button{
+    background-color:rgb(82, 70, 70);
+    border: none;
+    margin: 10px;
+    color: rgb(95, 111, 129);
+    font-size: 20px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600px;
+   
+}
+.all-btns-sign button{
+    background-color:rgb(78, 66, 75);
+    border: none;
+    margin: 10px;
+    color: rgb(102, 115, 130);
+    font-size: 20px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+
+}
+.all-btns-sign button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 5px rgb(255,255, 55);
+    
+}
+.all-btns-nmbr button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 5px rgb(255,255, 55);
+    
+}
+#clear{
+    color: rgb(128, 128, 128);
+    background-color: rgb(124, 107, 107);
+
+}
+#equl{
+    color: rgb(128, 128, 128);
+    background-color: rgb(124, 107, 107);
+
+}
+#clear:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 5px rgb(255,255, 55);
+
+}
+#equl:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 5px rgb(255,255, 55);
+
+}
+input{
+    width: 80%;
+    margin: 10px 0px;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 15px;
+    border: 1px solid grey;
+}
+input:focus{
+    outline: none;
+    border: 1px solid grey;
+}

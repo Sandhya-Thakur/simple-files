@@ -1,0 +1,38 @@
+<div style="display: flex; height: 700px; justify-content:center; align-items:center;">
+  <div class="mycal">
+    <input [(ngModel)] = "toShow" type="text">
+    <div class="all-btns">
+  
+  
+    <div class="all-btns-nmbr">
+      <button (click)="writeinput('1')">1</button>
+      <button (click)="writeinput('2')">2</button>
+      <button (click)="writeinput('3')">3</button>
+      <button (click)="writeinput('4')">4</button>
+      <button (click)="writeinput('5')">5</button>
+      <button (click)="writeinput('6')">6</button>
+      <button (click)="writeinput('7')">7</button>
+      <button (click)="writeinput('8')">8</button>
+      <button (click)="writeinput('9')">9</button>
+      <button (click)="writeinput('0')">0</button>
+     <div class="butn-extra">
+      <button (click) = "writeinput('.')">.</button>
+      <button (click)="back()">Back</button>
+      </div>
+    </div>
+    <div class="all-btns-sign">
+      <button (click)="writeinput('+')">+</button>
+      <button (click)="writeinput('-')">-</button>
+      <button (click)="writeinput('*')">*</button>
+      <button (click)="writeinput('/')">/</button>
+    </div>
+  </div>
+    <div class="btns-clear-equals">
+      <button id="clear" (click)="clear()">Clear</button>
+    <button id="equl" (click)="equals()">=</button>
+   </div>
+  
+  </div>
+  
+
+</div>
